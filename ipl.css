@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height:100%;
+    width:100%;
+    background-color: #5353534f;
+
+}
+
+#nav{
+   height:100px;
+   width: 100%;
+   padding:0 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+}
+#nav-part1 img{
+    height: 30px;
+    width: 60px;
+    margin:0 30px;
+    margin-right: 60px;
+}
+
+#nav-part1 h3{
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+#nav-part2 i{
+    font-weight: 500;
+    
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+.home{
+    border-bottom: 2px solid black;
+}
+#content{
+    height:calc(100% - 100px);
+    width: 100%;
+    
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 40%;
+    
+    padding:50px 75px;
+}
+
+#left h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #535353;
+    margin-bottom: 20px;
+}
+#left h1{
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 20px;
+
+    
+}
+
+#left p{
+    font-size:16px;
+    font-weight: 500;
+    color:#535353;
+    margin-bottom: 20px;
+}
+#left button{
+    padding:15px 40px;
+    text-transform: uppercase;
+    color:white;
+    background-color: black;
+    border-radius: 100px;
+    border-top-left-radius: 0px;
+    font-size: 17px;
+}
+#right{
+    height:100%;
+    width:60%;
+    /* background-color: blueviolet; */
+    position: relative;
+    padding:70px;
+    white-space: nowrap;
+    overflow-x: auto;
+    
+    
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+
+#card{
+    
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.5);
+    overflow: hidden;
+    display: inline-block;
+    margin-right:20px;
+}
+
+#card img{
+    height:350px;
+    width:200px;
+    position: absolute;
+    top:7%;
+
+
+    
+}
+#card h3{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    padding:2px 50px;
+    font-size: 25px;
+     font-weight: 500; 
+    /* background-color: aqua; */
+    background-color: #5353534f;
+    overflow:hidden;
+
+
+}
+
+#card h4{
+    position:absolute;
+    font-weight: 500;
+    right:0;
+    bottom: 8%;
+    font-size: 20px;
+    padding:5px 30px;
+    background-color: brown;
+}
+
